@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberseguridad: Clases de Ataques y Mecanismos de Protección</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3 {
+            color: #2c3e50;
+        }
+
+        ul, ol {
+            list-style-position: inside;
+            padding-left: 20px;
+        }
+
+        ul li, ol li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th, table td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #2980b9;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ciberseguridad: Clases de Ataques y Mecanismos de Protección</h1>
+        <h2>Investigación y Defensa</h2>
+    </header>
+
+    <section>
+        <h3>Introducción a la Ciberseguridad</h3>
+        <p>La ciberseguridad es crucial para proteger los sistemas informáticos frente a amenazas de ataque.</p>
+        <p>En esta página, exploraremos las clases más comunes de ataques cibernéticos y los mecanismos de protección y defensa que se emplean para prevenirlos.</p>
+    </section>
+
+    <section>
+        <h3>Tipos de Ataques Comunes</h3>
+        <ul>
+            <li><strong>Phishing:</strong> Técnica de fraude en línea donde los atacantes se hacen pasar por una entidad confiable para obtener información confidencial como contraseñas o números de tarjeta de crédito.</li>
+            <li><strong>Malware:</strong> Software malicioso diseñado para dañar, interrumpir o obtener acceso no autorizado a sistemas informáticos, como virus, troyanos y spyware.</li>
+            <li><strong>Ransomware:</strong> Tipo de malware que secuestra los datos de un usuario o sistema y exige un rescate a cambio de la liberación de dichos datos o del sistema afectado.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Mecanismos de Protección</h3>
+        <ol>
+            <li><strong>Antivirus:</strong> Software diseñado para detectar, prevenir y eliminar virus y otros tipos de malware de un sistema informático.</li>
+            <li><strong>Firewalls:</strong> Dispositivos o software que filtran el tráfico de red entrante y saliente para proteger contra accesos no autorizados o ataques.</li>
+            <li><strong>Autenticación multifactor:</strong> Método de seguridad que requiere dos o más verificaciones (como una contraseña y un código enviado al móvil) para acceder a una cuenta o sistema.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h3>Imágenes Relacionadas</h3>
+        <img src=https://media.istockphoto.com/id/615714416/es/vector/seguridad-inform%C3%A1tica-proteger-el-ordenador-port%C3%A1til-icono-de-port%C3%A1til-y-escudo-con-candado.jpg?s=612x612&w=0&k=20&c=-mvoKwjOcu-ceTXPN6j71ZwQ6BTuewJZo9L6UJL4PTc= alt="Imagen 1">
+        <img src=https://images.ctfassets.net/5i1m3im8l2b5/3wIRSBd1uuCeOlSr34Snlq/22d42b323358ba2de10db9560a9393a3/10-tips-to-prevent-phishing.png?w=1200&h=630&q=50&fm=png alt="Imagen 2">
+        <img src=https://media.istockphoto.com/id/1345812496/es/foto/resumen-advertencia-de-un-programa-de-malware-detectado.jpg?s=612x612&w=0&k=20&c=HMAFA3HHNI45II6_y7Y3HmkhJkok61BIRVCtKNZHRiw= alt="Imagen 3">
+    </section>
+
+    <section>
+        <h3>Enlaces Internos</h3>
+        <ul>
+            <li><a href="https://www.kaspersky.com/resource-center/threats/phishing" target="_blank">Tipos de Ataques - Kaspersky</a></li>
+            <li><a href="https://www.csoonline.com/article/261717/what-is-malware-how-to-prevent-it.html" target="_blank">Mecanismos de Protección - CSO Online</a></li>
+            <li><a href="https://www.cisa.gov/ransomware" target="_blank">Ciberseguridad y Ransomware - CISA</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Tabla de Comparación</h3>
+        <table border="1">
+            <tr>
+                <th>Ataque</th>
+                <th>Riesgo</th>
+                <th>Defensa</th>
+            </tr>
+            <tr>
+                <td>Phishing</td>
+                <td>Alto</td>
+                <td>Autenticación multifactor</td>
+            </tr>
+            <tr>
+                <td>Malware</td>
+                <td>Alto</td>
+                <td>Antivirus</td>
+            </tr>
+            <tr>
+                <td>Ransomware</td>
+                <td>Crítico</td>
+                <td>Firewalls, Backup</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>Fuente: <a href="https://www.cisa.gov/" target="_blank">CISA</a></p>
+    </footer>
+</body>
+</html>
